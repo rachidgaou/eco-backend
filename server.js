@@ -5,7 +5,7 @@ const mongoose = require("mongoose");
 const Contact = require("./models/Contact");
 
 const app = express();
-const port = process.env.PORT || 8000;
+const port = process.env.PORT || 8080;
 
 app.use(cors());
 app.use(express.json());
